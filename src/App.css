@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+.listTasks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.listTasks > div {
+  width: 220px;
+  margin: 5px;
+}
+.card-body:not(.edit) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.form-group {
+  margin-bottom: 5px;
+}
+small {
+  color: #aaa;
+}
